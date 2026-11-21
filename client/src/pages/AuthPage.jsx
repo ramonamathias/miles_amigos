@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Login from "../components/Login";
 import Signup from "../components/Signup";
-import authBg from "../assets/AuthPage.png"; // reuse your landing page image
+import authBg from "../assets/authPage.png"; // reuse your landing page image
 
 export default function AuthPage() {
   const [showLogin, setShowLogin] = useState(true);
