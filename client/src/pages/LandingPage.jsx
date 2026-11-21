@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import landingPic from "../assets/LandingPage.jpg";
+import landingPic from "../assets/landingPage.jpg";
 
 export default function LandingPage() {
   const navigate = useNavigate();
